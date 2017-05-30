@@ -1,0 +1,10 @@
+cluster.name: ${ES_CLUSTER_NAME}
+discovery.zen.minimum_master_nodes: 1
+http.host: 0.0.0.0
+http.port: 9200
+transport.host: 127.0.0.1
+xpack.monitoring.enabled: false
+xpack.security.enabled: false
+xpack.watcher.enabled: false
+
+path.data: /usr/share/elasticsearch/data/
